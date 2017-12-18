@@ -1,0 +1,11 @@
+public class TestPuppy {
+
+	public static void main(String[] args) {
+
+		Puppy a = new Puppy("Dachshund", "강쥐1", 4, "남자");					Puppy b = new Puppy("Maltese", "강쥐2", 5, "여자");			
+		//참과 거짓을 저장하는 타입을 boolean이라고 함
+		boolean isEqual = a.equals(b);
+		System.out.println(isEqual);
+
+		boolean isEquals02 = b.equal(a);
+		System.out.println(isEquals02);

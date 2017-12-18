@@ -1,0 +1,51 @@
+class Puppy {
+
+ 
+	// 인스턴스 변수
+	String type;
+
+	String name;
+
+	int age;
+
+	String gender;
+
+ 
+	// 생성자
+	public Puppy(String type, String name, int age, String gender) {
+
+		this.type = type;
+
+		this.name = name;
+
+		this.age = age;
+
+		this.gender = gender;
+
+	 
+
+	}
+
+ 
+	// 비교메서드 만들기 
+	boolean equals(Puppy p) {
+		if (this.type == p,type) {
+			if (this.name == p.name) { 
+			
+						
+	
+
+			return true;
+			// 강아지 종류와 이름이 같은 경우
+ 
+
+		}
+
+			return false;
+			// 강아지 종류는 같은데 이름이 다른경우
+	}
+	return false;
+			// 강아지 종류도 다르고 이름도 다른경우
+		
+
+}

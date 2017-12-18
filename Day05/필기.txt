@@ -1,0 +1,13 @@
+javac -sourcepath . .\TestPuppy.java -다른거 엮을때
+
+notepad 0000.java 라고 하기 
+
+if안에 if를 넣는 대신 '&&'사용할 수 있음
+
+//객체를 생성한다.
+		Calc calcA =new Calc();
+		
+		//출력형태 메소드명(넣을것) 중괄호가 중간에 넣을 것 결과는 이렇게 계산한거다 리턴이 결과뽑으라는뜻 int는 수자라는것
+	int add(int a, int b) {
+		int result = a + b;
+		return result;
